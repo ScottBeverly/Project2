@@ -2,7 +2,7 @@
 
 ## Project Links
 
-- [add your github repo link]()
+- []()
 - [add your deployment link]()
 
 ## Project Description
@@ -11,7 +11,7 @@ A breif description of what i would like to do is to create a real time sports s
 
 ## API
 
-Use this section to include info about the API you have chosen and a code snippet of the data that it returns and is required for your project. 
+Link to API : https://github.com/dword4/nhlapi
 
 
 ```
@@ -35,29 +35,18 @@ Use this section to include info about the API you have chosen and a code snippe
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
-
-- [https://wireframepro.mockflow.com/editor.jsp?editor=off&publicid=Mb412ef49afbe636a5e5b9b88498c1a8a1585261284360&projectid=Mb12db26e74be6fcd7eab0df29db37e791585261284360&perm=Owner#/page/a370432b2d3d49b797219835b400fbcd]()
-- [imgur]()..
-
-
-### MVP/PostMVP - 5min
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+- WireFrame: - [https://wireframepro.mockflow.com/view/Mb12db26e74be6fcd7eab0df29db37e791585261284360#/page/Db1f9e408eff79bee540368e852c366aa]()
 
 #### MVP 
 - sucessful API data pull and rendered to page
 - Provide a Mobile first responsive design 
-- Ensuring all project criteria was met. 
+- creating My best possible work!
 
 #### PostMVP 
-
-- Create a similar component design for my portfolio project. 
+- To Take the new knowlege i gain through out the course and implement them into my project to make it better!
+- Possibly branch out more in depth with more components and aditional components.  
 
 ## Components
-##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
-
-Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
 
 | Component | Description | 
 | --- | :---: |  
@@ -71,7 +60,7 @@ Based on the initial logic defined in the previous sections try and breakdown th
 
 
 
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
+### TimeFrames
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
@@ -80,18 +69,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | wireFrames | H | 1hr | 1hr | 1hr |
 | App Architecture | H | 1hr | 1hr | 1hr |
 | MVP overview | H | 1hr | 1hr | 1hr |
-
 | Total | H | 9hrs| 8hrs | 8hrs |
 
-## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
+## Additional Libraries Used/Will be Used
+ N/A
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+
 ```
