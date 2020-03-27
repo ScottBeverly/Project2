@@ -2,40 +2,33 @@
 
 ## Project Links
 
-- []()
+- API link -[https://api.nasa.gov/planetary/apod?date=2014-01-16&api_key=DEMO_KEY]()
 - [add your deployment link]()
 
 ## Project Description
 
-A breif description of what i would like to do is to create a real time sports stats app. The Nhl is  my favorite sport so i figured why not create an app with the stats of the players we watch on tv. i plan on fetching an api of stats for this and maping over the object of data to pin point what the people want to see! 
-
+My project will be about different events that happened in the world of outer space. Each photo that will render will have a date of happening and a quick description. when clicked upon it will re direct you to another page with more information on the specific event. 
 ## API
 
-Link to API : https://github.com/dword4/nhlapi
+Link to API : 
 
 
 ```
-"roster" : [ {
-    "person" : {
-      "id" : 8477474,
-      "fullName" : "Madison Bowey",
-      "link" : "/api/v1/people/8477474"
-    },
-    "jerseyNumber" : "22",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  },
+"date": "2014-01-16",
+"explanation": "Despina is a tiny moon of Neptune. A mere 148 kilometers across, diminutive Despina was discovered in 1989, in images from the Voyager 2 spacecraft taken during its encounter with the solar system's most distant gas giant planet. But looking through the Voyager 2 data 20 years later, amateur image processor and philosophy professor Ted Stryk discovered something no one had recognized before -- images that show the shadow of Despina in transit across Neptune's blue cloud tops. His composite view of Despina and its shadow is composed of four archival frames taken on August 24, 1989, separated by nine minutes. Despina itself has been artificially brightened to make it easier to see. In ancient Greek mythology, Despina is a daughter of Poseidon, the Roman god Neptune.",
+"hdurl": "https://apod.nasa.gov/apod/image/1401/neptune_despina_transit_combo_despinabrightened.jpg",
+"media_type": "image",
+"service_version": "v1",
+"title": "Despina, Moon of Neptune",
+"url": "https://apod.nasa.gov/apod/image/1401/neptune_despina_transit_combo_despinabrightened.jpg"
+}
 
 ```
 
 
 ## Wireframes
 
-- WireFrame: - [https://wireframepro.mockflow.com/view/Mb12db26e74be6fcd7eab0df29db37e791585261284360#/page/Db1f9e408eff79bee540368e852c366aa]()
+- WireFrame: - [https://wireframepro.mockflow.com/view/Md79f547ea783b74ad05e9851f7fa78361585331512907#/page/9777a32b55a94b628e3a98fe7e6013a7]()
 
 #### MVP 
 - sucessful API data pull and rendered to page
@@ -53,10 +46,10 @@ Link to API : https://github.com/dword4/nhlapi
 | App | This will make the initial data pull and include React Router| 
 | Header | This will render the header include the nav and include links to render different pages |
 | main | This will render the Api information to the child components in this app |
-| Teams | This component will provide data from the Api including the number of teams in the league |
-| Players | This component will provide specific information about players and will be a direct link from the team's page |
-| Home | this Component will be same level as main and provide information from api (hardcoded) information about the teams Top 10 teams |
-| Footer | This will render the header include the nav | 
+| Dash| This component will provide data from the Api including different events of the month |
+| Event | This component will provide specific information about the event and will be a direct link to the events description page.  |
+| Home | this Component will be same level as main and provide information from Nasa a very basic description of the company with route links to (Dash& Home) |
+| Footer | This will render general css| 
 
 
 
