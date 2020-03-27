@@ -27,8 +27,11 @@ Link to API :
 
 
 ## Wireframes
+[WireFrame -](https://wireframepro.mockflow.com/view/Md79f547ea783b74ad05e9851f7fa78361585331512907#/page/9777a32b55a94b628e3a98fe7e6013a7)
 
-- WireFrame: - [https://wireframepro.mockflow.com/view/Md79f547ea783b74ad05e9851f7fa78361585331512907#/page/9777a32b55a94b628e3a98fe7e6013a7]()
+## FlowChart
+[Architecture](https://drive.google.com/file/d/1OMAvSHK0jj5iBXw6mSDprPrF9eAK4gTt/view?usp=sharing)
+
 
 #### MVP 
 - sucessful API data pull and rendered to page
