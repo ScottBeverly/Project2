@@ -56,15 +56,23 @@ My project will be about different events that happened in the world of outer sp
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| wireFrames | H | 1hr | 1hr | 1hr |
-| App Architecture | H | 1hr | 1hr | 1hr |
-| MVP overview | H | 1hr | 1hr | 1hr |
-| Total | H | 9hrs| 8hrs | 8hrs |
+| Project Criteria Overview | H | 2hrs| 2hrs | 2hrs |
+| API Research| H | 3hrs| 3.5hrs | 3.5hrs |
+| wireFrames | H | 1hr | 2hr | 2hr |
+| App Architecture | H | 1.5hr | 2.5hr | 2.5hr |
+| MVP overview | H | 1hr | 1.5hr | 1.5hr |
+| Time Matrix | H | 3hr | 3hr | 3hr |
+| Editor Component Set-up | H | 4hr | TBD | TBD |
+| Api Data console logged | H | 4 hr | TBD | TBD |
+| Data Passed with Props | H | 5hr | TBD | TBD |
+| Basic Html set-up (Components) | M | 3hr | TBD | TBD |
+| Data rendered onto Page | M | 4hr | TBD | TBD |
+| Style with CSS | L | 6hr | TBD | TBD |
+| Re-Orginize files | L | 2hr | TBD | TBD |
+| Total | H | 38hrs| 12.5hrs | 14.5hrs |
 
 ## Additional Libraries Used/Will be Used
- N/A
+ - [Imgur](https://imgur.com/)
 
 ## Code Snippet
 
