@@ -8,11 +8,7 @@
 ## Project Description
 
 My project will be about different events that happened in the world of outer space. Each photo that will render will have a date of happening and a quick description. when clicked upon it will re direct you to another page with more information on the specific event. 
-## API
-
-Link to API : 
-
-
+## API Snippet
 ```
 "date": "2014-01-16",
 "explanation": "Despina is a tiny moon of Neptune. A mere 148 kilometers across, diminutive Despina was discovered in 1989, in images from the Voyager 2 spacecraft taken during its encounter with the solar system's most distant gas giant planet. But looking through the Voyager 2 data 20 years later, amateur image processor and philosophy professor Ted Stryk discovered something no one had recognized before -- images that show the shadow of Despina in transit across Neptune's blue cloud tops. His composite view of Despina and its shadow is composed of four archival frames taken on August 24, 1989, separated by nine minutes. Despina itself has been artificially brightened to make it easier to see. In ancient Greek mythology, Despina is a daughter of Poseidon, the Roman god Neptune.",
