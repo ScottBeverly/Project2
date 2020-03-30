@@ -1,0 +1,11 @@
+.Head{
+    background-color: rgb(94, 203, 237);
+    margin: 0;
+    height: 50px; 
+    display: flex;
+    flex: wrap;
+    padding-left: 45px;
+}
+h2{
+    margin:10px;
+}
