@@ -62,14 +62,14 @@ My project will be about different events that happened in the world of outer sp
 | App Architecture | H | 1.5hr | 2.5hr | 2.5hr |
 | MVP overview | H | 1hr | 1.5hr | 1.5hr |
 | Time Matrix | H | 3hr | 3hr | 3hr |
-| Editor Component Set-up | H | 4hr | TBD | TBD |
-| Api Data console logged | H | 4 hr | TBD | TBD |
+| Editor Component Set-up | H | 4hr | 3hrs | 3hrs |
+| Api Data console logged | H | 4 hr | 5hrs | 5hrs |
 | Data Passed with Props | H | 5hr | TBD | TBD |
 | Basic Html set-up (Components) | M | 3hr | TBD | TBD |
 | Data rendered onto Page | M | 4hr | TBD | TBD |
 | Style with CSS | L | 6hr | TBD | TBD |
 | Re-Orginize files | L | 2hr | TBD | TBD |
-| Total | H | 38hrs| 12.5hrs | 14.5hrs |
+| Total | H | 38hrs| 20.5hrs | 22.5hrs |
 
 ## Additional Libraries Used/Will be Used
  - [Imgur](https://imgur.com/)
