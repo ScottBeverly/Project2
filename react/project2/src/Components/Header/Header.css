@@ -1,11 +1,28 @@
 .Head{
-    background-color: rgb(94, 203, 237);
+    background-color: white;
     margin: 0;
     height: 50px; 
     display: flex;
     flex: wrap;
     padding-left: 45px;
+    border: 1px solid black;
+  
+    
 }
 h2{
     margin:10px;
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+  
+    color:black;
+}
+.NASA{
+    color: black;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 25px;
+    
+    
 }

@@ -3,13 +3,18 @@ import './Dash.css';
 
 function Dash() {
   return (
-    <div>
+    <div className='Dash'>
+      <section>
       <h2>Want to know more about outer-space ? <br></br>
-      Choose a Date to learn more. 
+      Enter a Date to learn more. 
       </h2>
-      <input placeholder='Enter date'>
-      </input>
-      <button>Submit</button>
+      <form onSubmit={''}>
+      Enter a date (YYYY-MM-DD)
+      <input />
+      <input type="submit" />
+    </form>
+    </section>
+
       
       
     </div>

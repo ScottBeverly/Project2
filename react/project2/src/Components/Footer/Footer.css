@@ -1,8 +1,13 @@
 .Foot{
-    background-color: rgb(94, 203, 237);
+    background-color: white;
     margin: 0;
     height: 50px; 
     display: flex;
     flex: wrap;
     padding-left: 45px;
+    font-family: 'Do Hyeon', sans-serif;
+}
+p{
+    display: flex;
+    padding-top: 30px;
 }
