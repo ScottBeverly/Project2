@@ -11,10 +11,10 @@ function Header() {
       <Link to='/'>
         <h2>Home</h2>
         </Link>
-        <Link to ='/Events'>
+        <Link to ='/Dash'>
         <h2>Dashboard</h2>
         </Link>
-        <Link>
+        <Link to='/'>
         <span className='NASA'>NASA</span>
         </Link>
         </div>

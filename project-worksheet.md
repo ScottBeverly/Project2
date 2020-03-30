@@ -64,12 +64,13 @@ My project will be about different events that happened in the world of outer sp
 | Time Matrix | H | 3hr | 3hr | 3hr |
 | Editor Component Set-up | H | 4hr | 3hrs | 3hrs |
 | Api Data console logged | H | 4 hr | 5hrs | 5hrs |
-| Data Passed with Props | H | 5hr | TBD | TBD |
+| Data Passed with Props | H | 5hr | 4hrs | 4hrs |
 | Basic Html set-up (Components) | M | 3hr | TBD | TBD |
-| Data rendered onto Page | M | 4hr | TBD | TBD |
+| Data rendered onto Page | M | 4hr | 3hrs | 3hrs |
+| Handle Submit toggles | M | 2 hrs | TBD | TBD |
 | Style with CSS | L | 6hr | TBD | TBD |
 | Re-Orginize files | L | 2hr | TBD | TBD |
-| Total | H | 38hrs| 20.5hrs | 22.5hrs |
+| Total | H | 40hrs| 24.5hrs | 26.5hrs |
 
 ## Additional Libraries Used/Will be Used
  - [Imgur](https://imgur.com/)
