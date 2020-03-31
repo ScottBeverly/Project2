@@ -1,35 +1,55 @@
-import React,{useState} from 'react';
+import React,{useState, useEffect} from 'react';
 import './Dash.css';
 
 function Dash(props) {
-  
-  const [Input, setInput] = useState('')
 
-   const changeDate = e => {
+  const [day,setDay] = useState()
+  const nasaUrl = `https://api.nasa.gov/planetary/apod?&date=${day}&api_key=5922S8UNUwz5xhymJjtNTL4fBJwyhnqeeUEZYotx`
+  const [input, setInput] = useState('')
+  const [data,setData] = useState([])
+  
+  useEffect(()=>{
+  const makeApiCall = async () => {
+    const res = await fetch(nasaUrl);
+    const json = await res.json();
+    setData(json)      
+};
+makeApiCall();
+}, [day]);
+  
+  const handleSubmit = e => {
     e.preventDefault();
-    let dateFromInput = e.target.value;
-    this.setInput({ date: dateFromInput 
-    });
-  
-  }
+    setDay(input)
+    }
+    
 
+  const handleChange = e => {
+     setInput(e.target.value)
+    }
   
   
   return (
     <div className='Dash'>
       <section>
-      <h2>Want to know more about outer-space ? <br></br>
-      Enter a Date to learn more. 
-      </h2>
-      <form onSubmit={changeDate}>
-      Enter a date (YYYY-MM-DD)
-      <input />
-      <input type="submit" />
-    </form>
-    </section>
+            <h2>Want to know more about outer-space ? <br></br>
+            Enter a Date to learn more. 
+            </h2>
+        <form onSubmit={handleSubmit}>
+            Enter a date (YYYY-MM-DD)
 
-      
-      
+          <input  
+            onChange={handleChange}
+            type='text'
+            value={input}/>
+          <input 
+            type="submit" 
+            value="submit"/>
+        </form>
+            <h1>{data.title}</h1>
+            <h2>{data.date}</h2>
+            <p>{data.explanation}</p>
+            <img src={data.url}/>
+      </section>
     </div>
   );
 }

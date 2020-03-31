@@ -37,6 +37,7 @@ My project will be about different events that happened in the world of outer sp
 #### PostMVP 
 - To Take the new knowlege i gain through out the course and implement them into my project to make it better!
 - Possibly branch out more in depth with more components and aditional components.  
+- Create Events page with even more Routes to make my App more Dynamic 
 
 ## Components
 
@@ -46,7 +47,6 @@ My project will be about different events that happened in the world of outer sp
 | Header | This will render the header include the nav and include links to render different pages |
 | main | This will render the Api information to the child components in this app |
 | Dash| This component will provide data from the Api including different events of the month |
-| Event | This component will provide specific information about the event and will be a direct link to the events description page.  |
 | Home | this Component will be same level as main and provide information from Nasa a very basic description of the company with route links to (Dash& Home) |
 | Footer | This will render general css| 
 
@@ -67,10 +67,10 @@ My project will be about different events that happened in the world of outer sp
 | Data Passed with Props | H | 5hr | 4hrs | 4hrs |
 | Basic Html set-up (Components) | M | 3hr | TBD | TBD |
 | Data rendered onto Page | M | 4hr | 3hrs | 3hrs |
-| Handle Submit toggles | M | 2 hrs | TBD | TBD |
+| Handle Submit toggles | M | 2 hrs | 5hrs | 5hrs |
 | Style with CSS | L | 6hr | TBD | TBD |
 | Re-Orginize files | L | 2hr | TBD | TBD |
-| Total | H | 40hrs| 24.5hrs | 26.5hrs |
+| Total | H | 40hrs| 29.5hrs | 31.5hrs |
 
 ## Additional Libraries Used/Will be Used
  - [Imgur](https://imgur.com/)
@@ -80,4 +80,5 @@ My project will be about different events that happened in the world of outer sp
 
 ```
 
+![alt text](https://i.imgur.com/AE3nrvY.png?1)
 ```

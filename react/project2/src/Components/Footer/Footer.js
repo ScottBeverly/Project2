@@ -5,7 +5,6 @@ function Footer() {
   return (
     <div className='Foot'>
       <p>This is my footer</p>
-      
     </div>
   );
 }
