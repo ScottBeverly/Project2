@@ -65,12 +65,12 @@ My project will be about different events that happened in the world of outer sp
 | Editor Component Set-up | H | 4hr | 3hrs | 3hrs |
 | Api Data console logged | H | 4 hr | 5hrs | 5hrs |
 | Data Passed with Props | H | 5hr | 4hrs | 4hrs |
-| Basic Html set-up (Components) | M | 3hr | TBD | TBD |
+| Basic Html set-up (Components) | M | 3hr | 3hrs | 3hrs |
 | Data rendered onto Page | M | 4hr | 3hrs | 3hrs |
 | Handle Submit toggles | M | 2 hrs | 5hrs | 5hrs |
 | Style with CSS | L | 6hr | TBD | TBD |
 | Re-Orginize files | L | 2hr | TBD | TBD |
-| Total | H | 40hrs| 29.5hrs | 31.5hrs |
+| Total | H | 40hrs| 32.5hrs | 34.5hrs |
 
 ## Additional Libraries Used/Will be Used
  - [Imgur](https://imgur.com/)
@@ -78,7 +78,7 @@ My project will be about different events that happened in the world of outer sp
 ## Code Snippet
 
 
-```
 
-![alt text](https://i.imgur.com/AE3nrvY.png?1)
-```
+
+![alt text](https://imgur.com/AE3nrvY)
+
