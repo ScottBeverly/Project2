@@ -12,7 +12,6 @@ function Dash(props) {
   const makeApiCall = async () => {
     const res = await fetch(nasaUrl);
     const json = await res.json();
-    console.log(json)
     setData(json)      
 };
 makeApiCall();

@@ -11,9 +11,9 @@ function Header() {
       <Link to ='/Dash'>
           <h2>Dashboard</h2>
       </Link>
-      <Link to='/'>
-          <span className='NASA'>NASA</span>
-      </Link>
+      <a className='NASA' href="https://www.nasa.gov/">NASA</a>
+      
+      
     </div>
   );
 }
