@@ -18,12 +18,10 @@
 Span:hover{
     color:orange;
     text-decoration: underline;
-    color:black;
 }
  h2 {
     padding-left: 0px;
     margin:10px;
-    text-decoration: none;
     font-family: 'Fredoka One', cursive;
     text-decoration: underline;
     color:black;
