@@ -21,6 +21,12 @@ My project will be about different events that happened in the world of outer sp
 
 ```
 
+### Built With
+- [React](https://reactjs.org/)
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/css_intro.asp)
+
+
 
 ## Wireframes
 - [WireFrame ](https://wireframepro.mockflow.com/view/Md79f547ea783b74ad05e9851f7fa78361585331512907#/page/9777a32b55a94b628e3a98fe7e6013a7)
@@ -98,4 +104,19 @@ makeApiCall();
      setInput(e.target.value)
     }
 ```
+### API Reference 
+Nasa had great open Api for projects small and large. they have a great community dev section that all devs would appreciate !
+-[API Data Link](https://api.nasa.gov/planetary/apod?date=2014-01-16&api_key=DEMO_KEY)
+
+### Credits
+
+- [Open Nasa](https://open.nasa.gov/)
+- [W3 schools](https://www.w3schools.com/)
+- [Github](https://github.com/)
+
+
+
+
+
+
 
