@@ -106,7 +106,7 @@ makeApiCall();
 ```
 ### API Reference 
 Nasa had great open Api for projects small and large. they have a great community dev section that all devs would appreciate !
--[API Data Link](https://api.nasa.gov/planetary/apod?date=2014-01-16&api_key=DEMO_KEY)
+- [API Data Link](https://api.nasa.gov/planetary/apod?date=2014-01-16&api_key=DEMO_KEY)
 
 ### Credits
 
