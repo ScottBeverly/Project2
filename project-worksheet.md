@@ -76,7 +76,7 @@ My project will be about different events that happened in the world of outer sp
  - [Imgur](https://imgur.com/)
 
 ## Code Snippet
-# Most proud of this snippet because i struggled for a long while with the habdle-submits and when i finally got it to work it was extremly rewarding to see my app's functionality at work. 
+ Most proud of this snippet because i struggled for a long while with the habdle-submits and when i finally got it to work it was extremly rewarding to see my app's functionality at work. 
 ```
 useEffect(()=>{
   const makeApiCall = async () => {
