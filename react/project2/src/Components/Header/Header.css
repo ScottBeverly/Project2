@@ -4,25 +4,46 @@
     height: 50px; 
     display: flex;
     flex: wrap;
-    padding-left: 45px;
-    border: 1px solid black;
-  
-    
-}
-h2{
-    margin:10px;
-    text-decoration: none;
-    font-family: 'Fredoka One', cursive;
-  
-    color:black;
+    padding-left: 45px;      
 }
 .NASA{
     color: black;
     display: flex;
-    padding-top: 10px;
+    padding-top: 14px;
     padding-left: 10px;
     font-family: 'Do Hyeon', sans-serif;
-    font-size: 25px;
-    
-    
+    font-size: 25px;   
+    text-decoration: underline;
+}
+Span:hover{
+    color:orange;
+    text-decoration: underline;
+    color:black;
+}
+ h2 {
+    padding-left: 0px;
+    margin:10px;
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+    text-decoration: underline;
+    color:black;
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    h2{
+        justify-content: center;
+    }
+    .Head{
+         justify-content: space-evenly;   
+    }
+}
+@media (min-width: 1024px){
+    .Head{
+        justify-content: space-evenly;
+        font-size: 30px;
+    }
+    .NASA{
+        font-size: 50px;
+        text-decoration: underline;
+        padding-top: 15px;
+    }
 }

@@ -12,6 +12,7 @@ function Dash(props) {
   const makeApiCall = async () => {
     const res = await fetch(nasaUrl);
     const json = await res.json();
+    console.log(json)
     setData(json)      
 };
 makeApiCall();
@@ -29,14 +30,15 @@ makeApiCall();
   
   
   return (
+  
     <div className='Dash'>
       <section>
+            <img className='img2'src='https://i.imgur.com/XnZT8xc.jpg'></img>
             <h2>Want to know more about outer-space ? <br></br>
             Enter a Date to learn more. 
-            </h2>
-        <form onSubmit={handleSubmit}>
+            </h2> 
+         <form onSubmit={handleSubmit}>
             Enter a date (YYYY-MM-DD)
-
           <input  
             onChange={handleChange}
             type='text'
@@ -44,11 +46,13 @@ makeApiCall();
           <input 
             type="submit" 
             value="submit"/>
-        </form>
+        </form> 
+        <div className='render'>
             <h1>{data.title}</h1>
             <h2>{data.date}</h2>
             <p>{data.explanation}</p>
             <img src={data.url}/>
+        </div>
       </section>
     </div>
   );
