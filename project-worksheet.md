@@ -68,17 +68,34 @@ My project will be about different events that happened in the world of outer sp
 | Basic Html set-up (Components) | M | 3hr | 3hrs | 3hrs |
 | Data rendered onto Page | M | 4hr | 3hrs | 3hrs |
 | Handle Submit toggles | M | 2 hrs | 5hrs | 5hrs |
-| Style with CSS | L | 6hr | TBD | TBD |
-| Re-Orginize files | L | 2hr | TBD | TBD |
-| Total | H | 40hrs| 32.5hrs | 34.5hrs |
+| Style with CSS | L | 6hr | 7hrs | 7hrs |
+| Re-Orginize files | L | 2hr | 1hr| 1hr |
+| Total | H | 40hrs| 40.5hrs | 42.5hrs |
 
 ## Additional Libraries Used/Will be Used
  - [Imgur](https://imgur.com/)
 
 ## Code Snippet
+# Most proud of this snippet because i struggled for a long while with the habdle-submits and when i finally got it to work it was extremly rewarding to see my app's functionality at work. 
+```
+useEffect(()=>{
+  const makeApiCall = async () => {
+    const res = await fetch(nasaUrl);
+    const json = await res.json();
+    console.log(json)
+    setData(json)      
+};
+makeApiCall();
+}, [day]);
+  
+  const handleSubmit = e => {
+    e.preventDefault();
+    setDay(input)
+    }
+    
 
-
-
-
-![alt text](https://imgur.com/AE3nrvY)
+  const handleChange = e => {
+     setInput(e.target.value)
+    }
+```
 
