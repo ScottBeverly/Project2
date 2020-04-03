@@ -52,11 +52,15 @@ input:hover{
         max-width: 700px;
     }
     .render > p{
-        color:black;
+        color: black;
     }
 }
 @media (min-width: 1024px){
     .render > img {
        max-width: 800px;   
+    }
+    .render > p{
+        
+        border-radius: 10px;
     }
 }
