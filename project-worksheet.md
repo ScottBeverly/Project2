@@ -79,7 +79,7 @@ My project will be about different events that happened in the world of outer sp
 | Handle Submit toggles | M | 2 hrs | 5hrs | 5hrs |
 | Style with CSS | L | 6hr | 7hrs | 7hrs |
 | Re-Orginize files | L | 2hr | 1hr| 1hr |
-| Total | H | 40hrs| 40.5hrs | 42.5hrs |
+| Total | overall | 40hrs| 42.5hrs | 42.5hrs |
 
 ## Additional Libraries Used/Will be Used
  - [Imgur](https://imgur.com/)
